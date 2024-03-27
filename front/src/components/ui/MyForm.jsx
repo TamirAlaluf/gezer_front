@@ -100,11 +100,11 @@ const MyForm = ({ formData, handleChange, handleSubmit }) => {
           <input type="text" name="courseNumber" value={formData.courseNumber} onChange={handleChange} />
           <div className="error">{errors.courseNumber}</div>
         </div>
-        <div className="form-group">
+        {/* <div className="form-group">
           <label>מספר קבוצה:</label>
           <input type="text" name="groupNumber" value={formData.groupNumber} onChange={handleChange} />
           <div className="error">{errors.groupNumber}</div>
-        </div>
+        </div> */}
         <div className="form-group">
           <label>מועד:</label>
           <select name="moedNumber" value={formData.moedNumber} onChange={handleChange}>
