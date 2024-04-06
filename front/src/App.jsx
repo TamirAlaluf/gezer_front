@@ -33,7 +33,7 @@ function App() {
 
     // e.preventDefault();
 
-  fetch('http://localhost:5000/submit-form', {
+  fetch('https://gezer-back.onrender.com/submit-form', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
